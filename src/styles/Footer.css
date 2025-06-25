@@ -1,0 +1,28 @@
+.footer-container {
+  width: 100%;
+  height: 30vh;
+  background-color: var(--black);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer-top-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.contact-number {
+  font-family: "Nunito", sans-serif;
+}
+.footer-top-wrapper p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.footer-container a {
+  color: var(--white);
+}

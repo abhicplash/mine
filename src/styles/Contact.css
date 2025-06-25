@@ -1,0 +1,50 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  padding: 8rem 0;
+}
+.contact-container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+  padding: 1rem;
+  border-radius: 5px;
+  gap: 1rem;
+  width: 30%;
+  padding: 2rem 0;
+  border: 1px solid var(--gray);
+  background: linear-gradient(to left bottom, var(--gray), var(--white));
+}
+.contact-container form input {
+  font-family: inherit;
+  height: 2.5rem;
+  border-radius: 5px;
+  border: 1px solid var(--gray);
+  width: 80%;
+}
+.contact-container form button {
+  border: 1px solid var(--gray);
+  background-color: var(--black);
+  color: var(--white);
+  width: 80%;
+}
+
+.contact-container form textarea {
+  height: 7rem;
+  font-family: inherit;
+  border: 1px solid var(--gray);
+  border-radius: 5px;
+  width: 80%;
+}
+@media (max-width: 768px) {
+  .contact-container form {
+    width: 70%;
+  }
+}

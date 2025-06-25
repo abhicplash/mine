@@ -1,7 +1,7 @@
 .Navbar-wrapper {
   width: 100%;
   height: 9vh;
-  background-color: var(--white);
+  background-color: var(--black);
   border-bottom: 1px solid silver;
   position: fixed;
   top: 0;
@@ -12,18 +12,18 @@
 }
 .Nav-icon {
   display: none;
-  color: var(--black);
+  color: var(--white);
   font-size: 1.3rem;
 }
 .Navbar-wrapper h2 {
-  color: var(--black);
+  color: var(--white);
 }
 .list-mob {
   display: none;
   width: 100%;
   height: 100vh;
-  background-color: var(--white);
-  color: var(--black);
+  background-color: var(--black);
+  color: var(--white);
   position: fixed;
   top: 9vh;
   flex-direction: column;
@@ -33,8 +33,8 @@
   /* background-color: red; */
 }
 .list-mob a {
-  color: var(--black);
-  border: 1px solid var(--black);
+  color: var(--white);
+  border: 1px solid var(--gray);
   width: 80%;
   display: flex;
   justify-content: center;
@@ -52,7 +52,7 @@
   gap: 2rem;
 }
 .list-desk a{
-  color: var(--black);
+  color: var(--white);
 }
 @media (max-width: 768px) {
   .Nav-icon {

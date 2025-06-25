@@ -26,6 +26,15 @@
   width: 70%;
   /* height: 20rem; */
 }
+.heroDetails button {
+  background-color: var(--black);
+  color: var(--white);
+  border: none;
+  
+}
+.heroDetails button:hover {
+  background-color: #000;
+}
 @media (max-width: 768px) {
   .hero-wrapper {
     flex-direction: column-reverse;

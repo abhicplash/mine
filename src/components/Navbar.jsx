@@ -13,10 +13,10 @@ const Navbar = () => {
       </Link>
       {view ? (
         <div className="list-mob">
-          <Link>Home</Link>
-          <Link>About</Link>
-          <Link>Project</Link>
-          <Link>Contact</Link>
+          <Link to={"/"}>Home</Link>
+          <Link to={"/about"}>About</Link>
+          <Link to={"/projects"}>Project</Link>
+          <Link to={"/contact"}>Contact</Link>
           <div className="Nav-socio-Icon-wrapper">
             <FaLinkedin />
             <FaLinkedin />
@@ -26,10 +26,10 @@ const Navbar = () => {
         </div>
       ) : null}
       <div className="list-desk">
-        <Link>Home</Link>
-        <Link>About</Link>
-        <Link>Project</Link>
-        <Link>Contact</Link>
+        <Link to={"/"}>Home</Link>
+        <Link to={"/about"}>About</Link>
+        <Link to={"/projects"}>Project</Link>
+        <Link to={"/contact"}>Contact</Link>
       </div>
       <div className="Nav-icon">
         <FaBars
