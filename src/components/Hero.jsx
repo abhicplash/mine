@@ -1,14 +1,23 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import "../styles/Hero.css";
 
 const Hero = () => {
   return (
-    <section className="hero">
-      <h2>Hello, I'm Abhilash 👋</h2>
-      <p>Frontend React Developer | Building real-world solutions</p>
-      <a href="#projects" className="btn">
-        View Projects
-      </a>
-    </section>
+    <div className="hero-wrapper">
+      <div className="heroDetails">
+        <h2>
+          Hey, This is <br /> <span className="name">Abhilash CP</span>
+        </h2>
+
+        <p>Frontend React Developer | Building real-world solutions</p>
+
+        <Link to={"/contact"}>
+          <button>Lets Talk</button>
+        </Link>
+      </div>
+      <div className="hero-Img-wrapper"></div>
+    </div>
   );
 };
 

@@ -1,0 +1,13 @@
+.hero-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+  /* border: 1px solid red; */
+}
+.name{
+    font-size: 2.5rem;
+}

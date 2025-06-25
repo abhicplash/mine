@@ -3,4 +3,65 @@
   height: 9vh;
   background-color: var(--white);
   border-bottom: 1px solid silver;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Nav-icon {
+  display: none;
+  color: var(--black);
+  font-size: 1.3rem;
+}
+.Navbar-wrapper h2 {
+  color: var(--black);
+}
+.list-mob {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--white);
+  color: var(--black);
+  position: fixed;
+  top: 9vh;
+  flex-direction: column;
+  padding: 4rem 0;
+  align-items: center;
+  gap: 1rem;
+  /* background-color: red; */
+}
+.list-mob a {
+  color: var(--black);
+  border: 1px solid var(--black);
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+}
+.Nav-socio-Icon-wrapper {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+.list-desk {
+  display: flex;
+  gap: 2rem;
+}
+.list-desk a{
+  color: var(--black);
+}
+@media (max-width: 768px) {
+  .Nav-icon {
+    display: flex;
+  }
+  .list-mob {
+    display: flex;
+  }
+  .list-desk {
+    display: none;
+  }
 }
