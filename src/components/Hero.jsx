@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Hero.css";
+import abhilash from "../assets/abhilash.jpeg";
 
 const Hero = () => {
   return (
@@ -11,7 +12,7 @@ const Hero = () => {
         </h2>
 
         <p>
-          Frontend React Developer <br /> 
+          Frontend React Developer <br />
           Building real-world solutions
         </p>
 
@@ -20,10 +21,7 @@ const Hero = () => {
         </Link>
       </div>
       <div className="hero-Img-wrapper">
-        <img
-          src="https://avatars.githubusercontent.com/u/137141694?v=4"
-          alt=""
-        />
+        <img src={abhilash} alt="" />
       </div>
     </div>
   );

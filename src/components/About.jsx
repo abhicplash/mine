@@ -2,17 +2,14 @@ import React from "react";
 import "../styles/About.css";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import abhilash from "../assets/abhilash.jpeg";
 
 const About = () => {
   return (
     <section id="about" className="about fade-in">
       <div className="about-container">
         <div className="avatar-wrapper">
-          <img
-            src="https://avatars.githubusercontent.com/u/137141694?v=4"
-            alt="Abhilash CP"
-            className="about-avatar"
-          />
+          <img src={abhilash} alt="Abhilash CP" className="about-avatar" />
         </div>
         <div className="about-text">
           <h2>About Me</h2>
