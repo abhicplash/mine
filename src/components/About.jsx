@@ -14,18 +14,17 @@ const About = () => {
         <div className="about-text">
           <h2>About Me</h2>
           <p>
-            I'm <strong>Abhilash CP</strong>, a self-taught frontend developer
-            passionate about building modern, scalable, and user-focused web
-            applications. With over 3+ years of experience in React, I’ve built
+            I'm <strong>Abhilash CP</strong>,  a self-taught
+            frontend developer with 3+ years of experience building responsive,
+            scalable, and user-focused web applications. I specialize in React,
+            Redux, Firebase, and modern styling with Tailwind CSS and clean CSS
+            practices. Proficient in HTML, CSS, and JavaScript, I’ve developed
             real-world projects like e-learning platforms, job boards, and
-            e-commerce apps.
+            e-commerce apps. I’m passionate about writing clean, maintainable
+            code and constantly exploring better ways to enhance user
+            experience.
           </p>
-          <p>
-            I specialize in React, Firebase, Redux, and clean CSS — always
-            focused on writing maintainable, scalable code. I'm curious,
-            growth-oriented, and love crafting interfaces that users love to
-            use.
-          </p>
+           
           <a
             href="/resume.pdf"
             className="resume-button"

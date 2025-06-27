@@ -8,10 +8,10 @@ import Contact from "../components/Contact";
 const Home = () => {
   return (
     <Layout>
-      {/* <Hero/> */}
+      <Hero/>
       <About/>
-      {/* <Projects/>
-      <Contact/> */}
+      <Projects/>
+      <Contact/>
     </Layout>
   );
 };
