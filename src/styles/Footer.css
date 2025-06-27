@@ -10,6 +10,7 @@
 }
 .footer-top-wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -17,7 +18,7 @@
 .contact-number {
   font-family: "Nunito", sans-serif;
 }
-.footer-top-wrapper p {
+.footer-top-wrapper span {
   display: flex;
   align-items: center;
   justify-content: center;

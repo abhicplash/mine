@@ -7,19 +7,19 @@ const Footer = () => {
   return (
     <footer className="footer-container">
       <div className="footer-top-wrapper">
-        <p className="contact-number">
+        <span className="contact-number">
           <FaPhoneAlt /> <a href="tel:+919562465095">+91 95624 65095</a>
-        </p>
-        <p>
-          | <FaEnvelope />
+        </span>
+        <span>
+           <FaEnvelope />
           <a href="mailto:abhicplash@gmail.com">abhicplash@gmail.com</a>
-        </p>
+        </span>
       </div>
 
       <p>
         <a href="https://wa.me/919562465095" target="_blank" rel="noreferrer">
           WhatsApp
-        </a>
+        </a>{" "}
         |
         <a
           href="https://github.com/abhicplash"
