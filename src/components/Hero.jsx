@@ -12,8 +12,8 @@ const Hero = () => {
         </h2>
 
         <p>
-          Frontend React Developer <br />
-          Building real-world solutions
+          Frontend Developer crafting modern,<br /> scalable, and user-focused web
+          apps
         </p>
 
         <Link to={"/contact"}>
