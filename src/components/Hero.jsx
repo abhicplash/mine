@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Hero.css";
-import abhilash from "../assets/abhilash.jpeg";
+import abhilash from "../assets/personal/abhilash.jpeg";
 
 const Hero = () => {
   return (

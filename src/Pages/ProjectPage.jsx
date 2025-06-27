@@ -6,6 +6,7 @@ const ProjectPage = () => {
   return (
     <Layout>
       <Projects />
+      
     </Layout>
   );
 };

@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/About.css";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import abhilash from "../assets/abhilash.jpeg";
+import abhilash from "../assets/personal/abhilash.jpeg";
 
 const About = () => {
   return (

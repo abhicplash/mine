@@ -1,8 +1,9 @@
 import React from "react";
 import "../styles/Projects.css";
-import Learning from "../assets/learning.jpg";
-import job from "../assets/job.jpg";
-import ecom from "../assets/ecom.jpg";
+import Learning from "../assets/projects/learning.jpg";
+import job from "../assets/projects/job.jpg";
+import ecom from "../assets/projects/ecom.jpg";
+import MiniProjects from "./MiniProjects";
 
 const projects = [
   {
@@ -34,32 +35,35 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="projects">
-      <h2 className="section-title">Projects</h2>
-      <div className="project-grid">
-        {projects.map((project, i) => (
-          <div key={i} className="project-card ">
-            <img
-              src={project.image}
-              alt={project.title}
-              className="project-image"
-            />
-            <div className="project-content">
-              <h3>{project.title}</h3>
-              <p>{project.description}</p>
-              <div className="project-links">
-                <a href={project.demo} target="_blank">
-                  Live Demo
-                </a>
-                <a href={project.github} target="_blank">
-                  GitHub
-                </a>
+    <>
+      <section id="projects" className="projects">
+        <h2 className="section-title">Projects</h2>
+        <div className="project-grid">
+          {projects.map((project, i) => (
+            <div key={i} className="project-card ">
+              <img
+                src={project.image}
+                alt={project.title}
+                className="project-image"
+              />
+              <div className="project-content">
+                <h3>{project.title}</h3>
+                <p>{project.description}</p>
+                <div className="project-links">
+                  <a href={project.demo} target="_blank">
+                    Live Demo
+                  </a>
+                  <a href={project.github} target="_blank">
+                    GitHub
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
-      </div>
-    </section>
+          ))}
+        </div>
+      </section>
+      <MiniProjects />
+    </>
   );
 };
 
