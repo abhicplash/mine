@@ -9,6 +9,7 @@ import {
   SiGit,
   SiVercel,
   SiTailwindcss,
+  SiBootstrap,
 } from "react-icons/si";
 import "../styles/Skills.css";
 
@@ -49,6 +50,7 @@ const Skills = () => {
             <h3>Styling</h3>
             <div className="icons">
               <SiTailwindcss />
+              <SiBootstrap />
               <SiCss3 />
             </div>
           </div>
