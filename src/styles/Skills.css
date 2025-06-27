@@ -41,6 +41,6 @@
 
 .icons svg:hover {
   transform: scale(1.2);
-  color: #007acc;
+  color: var(--black);
   cursor: pointer;
 }
