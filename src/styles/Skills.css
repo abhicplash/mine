@@ -1,46 +1,87 @@
-/* src/components/Skills.css */
-
+/* Section */
 .skills-section {
-  padding: 80px 20px;
-  background-color: #f9f9f9;
+  padding: 6rem 5%;
+  background: linear-gradient(135deg, #f8fafc, #eef2f7);
 }
 
+/* Container */
 .skills-container {
   max-width: 1100px;
   margin: 0 auto;
   text-align: center;
 }
 
+/* Title */
 .skills-title {
   font-size: 2.5rem;
-  margin-bottom: 40px;
-  font-weight: bold;
-  color: #333;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 3rem;
 }
 
+/* Grid */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 40px;
+  gap: 2rem;
 }
 
-.skill-group h3 {
-  font-size: 1.2rem;
-  margin-bottom: 15px;
-  color: #555;
-}
+/* 🔥 Skill Card */
+.skill-group {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 2rem 1.5rem;
 
-.icons {
-  display: flex;
-  justify-content: center;
-  gap: 25px;
-  font-size: 2.5rem;
-  color: #666;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease;
 }
 
+.skill-group:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12);
+}
+
+/* Category Title */
+.skill-group h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  color: #475569;
+}
+
+/* Icons */
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  font-size: 2.2rem;
+}
+
+/* 🔥 Icon Styling */
+.icons svg {
+  color: #94a3b8;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
 .icons svg:hover {
-  transform: scale(1.2);
-  color: var(--black);
+  transform: scale(1.25) translateY(-5px);
+  color: #0f172a;
   cursor: pointer;
+}
+
+/* Optional Glow on hover */
+.skill-group:hover .icons svg {
+  color: #1e293b;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .skills-title {
+    font-size: 2rem;
+  }
+
+  .icons {
+    font-size: 1.8rem;
+    gap: 1rem;
+  }
 }

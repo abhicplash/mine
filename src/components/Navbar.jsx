@@ -6,17 +6,20 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Navbar = () => {
   const [view, setView] = useState(false);
+
   return (
     <div className="Navbar-wrapper">
-      <Link to={"/"}>
+      <Link to={"/"} className="logo">
         <h2>Abhilash</h2>
       </Link>
-      {view ? (
+
+      {view && (
         <div className="list-mob">
-          <Link to={"/"}>Home</Link>
-          <Link to={"/about"}>About</Link>
-          <Link to={"/projects"}>Project</Link>
-          <Link to={"/contact"}>Contact</Link>
+          <Link to={"/"} onClick={() => setView(false)}>Home</Link>
+          <Link to={"/about"} onClick={() => setView(false)}>About</Link>
+          <Link to={"/projects"} onClick={() => setView(false)}>Project</Link>
+          <Link to={"/contact"} onClick={() => setView(false)}>Contact</Link>
+
           <div className="Nav-socio-Icon-wrapper">
             <FaLinkedin />
             <FaLinkedin />
@@ -24,19 +27,17 @@ const Navbar = () => {
             <FaLinkedin />
           </div>
         </div>
-      ) : null}
+      )}
+
       <div className="list-desk">
         <Link to={"/"}>Home</Link>
         <Link to={"/about"}>About</Link>
         <Link to={"/projects"}>Project</Link>
         <Link to={"/contact"}>Contact</Link>
       </div>
+
       <div className="Nav-icon">
-        <FaBars
-          onClick={() => {
-            setView(!view);
-          }}
-        />
+        <FaBars onClick={() => setView(!view)} />
       </div>
     </div>
   );

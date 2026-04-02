@@ -9,7 +9,7 @@ const projects = [
   {
     title: "AB-Ecom",
     description:
-      "An e-commerce web app with Firebase Auth for user signup/login and dynamic product listings fetched from FakeStoreAPI. Uses Redux for global state management including cart actions. Features a responsive UI and add-to-cart functionality.",
+      "A full-stack e-commerce web app built with React.js and AWS Cloud Services. Features user authentication via AWS Cognito, dynamic product listings fetched from a custom serverless API (AWS Lambda + API Gateway + DynamoDB), and global state management using Redux for cart and wishlist. Deployed on AWS S3 with CloudFront CDN for global HTTPS delivery. Includes protected routes, performance optimizations (useMemo, useCallback, React.memo), and a fully responsive UI.",
     github: "https://github.com/abhicplash/ab-ecom",
     demo: "https://ab-ecom-psi.vercel.app/",
     image: ecom,

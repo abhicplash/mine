@@ -25,11 +25,11 @@ const miniProjects = [
       "A simple weather application built with React.js, using the OpenWeatherMap API to fetch and display real-time weather data by city, with a clean and responsive UI.",
   },
   {
-    title: "IAS EICRA",
+    title: "AB-Ecom",
     image: eicra,
-    link: "https://iaseicra.com/",
+    link: "https://ab-ecom-psi.vercel.app/",
     description:
-      "A clean, responsive company website for IAS EICRA, showcasing services, contact options, and institutional information with a user-friendly layout and WhatsApp integration.",
+      "An e-commerce web app with Firebase Auth for user signup/login and dynamic product listings fetched from FakeStoreAPI. Uses Redux for global state management including cart actions. Features a responsive UI and add-to-cart functionality.",
   },
   {
     title: "MechFusion",
