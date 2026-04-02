@@ -7,7 +7,7 @@ import MiniProjects from "./MiniProjects";
 
 const projects = [
   {
-    title: "AB-Ecom",
+    title: "Cartly ",
     description:
       "A full-stack e-commerce web app built with React.js and AWS Cloud Services. Features user authentication via AWS Cognito, dynamic product listings fetched from a custom serverless API (AWS Lambda + API Gateway + DynamoDB), and global state management using Redux for cart and wishlist. Deployed on AWS S3 with CloudFront CDN for global HTTPS delivery. Includes protected routes, performance optimizations (useMemo, useCallback, React.memo), and a fully responsive UI.",
     github: "https://github.com/abhicplash/ab-ecom",
